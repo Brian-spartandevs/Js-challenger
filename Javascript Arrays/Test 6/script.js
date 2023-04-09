@@ -14,4 +14,4 @@ console.log(removeArrayElement([1, 2, "2"], "2"));
 console.log(removeArrayElement([false, "2", 1], false));
 //Expected ['2', 1]
 console.log(removeArrayElement([1, 2, "2", 1], 1));
-//Expected [2,
+//Expected [2, '2']
